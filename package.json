@@ -1,0 +1,37 @@
+{
+    "name": "read-qr-code",
+    "description": "read-qr-code",
+    "version": "0.0.1",
+    "author": {
+        "name": "Zac Anger",
+        "email": "zac@zacanger.com",
+        "url": "https://zacanger.com"
+    },
+    "license": "MIT",
+    "main": "index.js",
+    "scripts": {
+        "test": "npm run test:lint && npm run test:tape",
+        "test:tape": "tape test.js",
+        "test:lint": "standard",
+        "preversion": "npm t && sortpack"
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "bin": "./index.js",
+    "homepage": "https://github.com/zacanger/read-qr-code#readme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/zacanger/read-qr-code.git"
+    },
+    "bugs": "https://github.com/zacanger/read-qr-code/issues",
+    "keywords": [
+        "read-qr-code",
+        ""
+    ],
+    "devDependencies": {
+        "sortpack": "2.3.4",
+        "standard": "17.1.0",
+        "tape": "5.6.6"
+    }
+}
