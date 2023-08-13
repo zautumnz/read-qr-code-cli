@@ -1,5 +1,5 @@
 {
-  "name": "read-qr-code",
+  "name": "read-qr-code-cli",
   "description": "Tiny CLI for reading QR codes.",
   "version": "0.1.0",
   "author": {
@@ -18,12 +18,12 @@
     "node": ">=18.0.0"
   },
   "bin": "./index.js",
-  "homepage": "https://github.com/zacanger/read-qr-code#readme",
+  "homepage": "https://github.com/zacanger/read-qr-code-cli#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zacanger/read-qr-code.git"
+    "url": "https://github.com/zacanger/read-qr-code-cli.git"
   },
-  "bugs": "https://github.com/zacanger/read-qr-code/issues",
+  "bugs": "https://github.com/zacanger/read-qr-code-cli/issues",
   "keywords": [
     "qrcode",
     "cli"

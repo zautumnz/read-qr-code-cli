@@ -5,7 +5,7 @@ const jimp = require('jimp')
 
 const usage = () => {
   console.error(`Usage:
-read-qr-code some-file.png`)
+read-qr-code-cli some-file.png`)
   process.exit(1)
 }
 

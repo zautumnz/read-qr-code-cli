@@ -1,4 +1,4 @@
-# read-qr-code
+# read-qr-code-cli
 
 Tiny CLI for reading QR codes.
 
@@ -6,11 +6,11 @@ Tiny CLI for reading QR codes.
 
 ## Installation
 
-`npm i -g read-qr-code`
+`npm i -g read-qr-code-cli`
 
 ## Usage
 
-`read-qr-code foo.png`
+`read-qr-code-cli foo.png`
 
 Supported filetypes should be the same as
 [JIMP](https://github.com/jimp-dev/jimp). Just a tiny wrapper around JIMP and
