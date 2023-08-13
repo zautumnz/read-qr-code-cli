@@ -126,3 +126,10 @@ venv/
 wheels/
 x/
 !Cargo.lock
+*.png
+*.jpg
+*.jpeg
+*.bpm
+*.gif
+*.tiff
+*.tif
