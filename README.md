@@ -10,7 +10,14 @@ Tiny CLI for reading QR codes.
 
 ## Usage
 
-`read-qr-code-cli foo.png`
+```
+# prints the decoded url
+read-qr-code-cli some-file.png
+# opens link in your browser
+read-qr-code-cli -o some-file.png
+# shorthand name
+readqr some-file.png
+```
 
 Supported filetypes should be the same as
 [JIMP](https://github.com/jimp-dev/jimp). Just a tiny wrapper around JIMP and

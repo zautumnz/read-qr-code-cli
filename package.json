@@ -17,7 +17,10 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "bin": "./index.js",
+  "bin": {
+    "read-qr-code-cli": "./index.js",
+    "readqr": "./index.js"
+  },
   "homepage": "https://github.com/zacanger/read-qr-code-cli#readme",
   "repository": {
     "type": "git",
