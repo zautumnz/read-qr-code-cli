@@ -66,6 +66,6 @@ const main = () => {
     })
 }
 
-if (!module.parent) {
+if (require.main === module) {
   main()
 }
