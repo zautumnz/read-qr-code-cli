@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const jsqr = require('jsqr')
-const jimp = require('jimp')
+const { Jimp } = require('jimp')
 const { execFile } = require('child_process')
 
 const usage = () => {
@@ -49,7 +49,7 @@ const handleArgs = () => {
 
 const main = () => {
   const { file, open } = handleArgs()
-  jimp.read(file)
+  Jimp.read(file)
     .then(({ bitmap }) => formatData(bitmap))
     .then(({ imageData, width, height }) => {
       return jsqr(imageData, width, height)
